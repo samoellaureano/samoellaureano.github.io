@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: Tenor Sans;
+    src: url(/style/fonts/tenor-sans.ttf);
+}
+
+/*Area do slide*/
+
+.secao {
+    position: relative;
+}
+
+.scroll-top + .scroll-top {
+    top: -10px;
+    margin-top: 0;
+}
+
+/*Depoimentos*/
+
+.imgDep01{
+    content: url(/img/depoimentos/Dep01.png);
+}
+
+.imgDep02{
+    content: url(/img/depoimentos/Dep02.png);
+}
+
+.imgDep03{
+    content: url(/img/depoimentos/Dep03.png);
+}
+
+.imgDep04{
+    content: url(/img/depoimentos/Dep04.png);
+}
+
+.imgDep05{
+    content: url(/img/depoimentos/Dep05.png);
+}
+
+.imgDep06{
+    content: url(/img/depoimentos/Dep06.png);
+}
+
+.imgDep07{
+    content: url(/img/depoimentos/Dep07.png);
+}
+
+.imgDep08{
+    content: url(/img/depoimentos/Dep08.png);
+}
+
+.imgDep09{
+    content: url(/img/depoimentos/Dep09.png);
+}
+
+.imgPa{
+    content: url(/img/busca/pa.png);
+}
+
+.imgPi{
+    content: url(/img/busca/pi.png);
+}
+
+.imgCt{
+    content: url(/img/busca/ct.png);
+}
+
+.imgCr{
+    content: url(/img/busca/cr.png);
+}
+

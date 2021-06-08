@@ -1,0 +1,213 @@
+@media only screen and (min-device-width: 200px) {
+    .icone-scroll {
+        position: absolute;
+        bottom: 3em;
+        width: 10rem;
+        height: 10rem;
+        background-color: #0000002e;
+        border-radius: 50%;
+        left: 45%;
+        margin-left: -25px;
+        cursor: pointer;
+    }
+
+    .scroll {
+        width: 3rem;
+        height: 3rem;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        display: inline-block;
+        position: relative;
+    }
+
+    .scroll-next {
+        transform: rotate(45deg);
+        margin: 39px 0 0 52.5px;
+    }
+
+    .scroll-top {
+        transform: rotate(225deg);
+        margin: 48px 0 0 56px;
+    }
+
+    .containerPortifolio {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 40rem 0% 0px 5%;
+    }
+    
+    .containerPortifolio > .item {
+        background-color: #ffffff1a;
+        width: 280px;
+        height: 205px;
+        color: white;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .containerPortifolio > .item > a{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Tenor Sans';
+        display: block;
+        font-size: 35px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .containerCursos {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 40rem 0% 0px 5%;
+    }
+
+    .containerCursos > .item {
+        background-color: #ffffff1a;
+        width: 27rem;
+        height: 27rem;
+        color: white;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    .containerCursos > .item > a{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Tenor Sans';
+        display: block;
+        font-size: 50px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .containerOrcamento {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin: 16rem 0 0;
+        text-align: -webkit-center;
+        align-items: center;
+    }
+    
+    .containerOrcamento > .item {
+        margin: 2rem 0 0;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .containerOrcamento > .item > a{
+        text-decoration: none;
+    }
+
+    .containerOrcamento > .item > a > div > img {
+        width: 205px;
+        height: 205px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .containerOrcamento > .item > a > div > span {
+        font-family: 'Tenor Sans';
+        font-size: 26px;
+        color: #ffffffba;
+        margin: 30px 10px;
+    }
+
+    .containerDepoimentos{
+        background-color: #f4f4f4;
+    }
+
+    .depoimentos{
+        background-color: #f4f4f4;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        flex: 1;
+        text-align: center;
+    }
+
+    .tituloSessao {
+        font-family: 'Tenor Sans';
+        font-size: 60px;
+        color: #5b7379;
+    }
+
+    .depoimentos > div > div > img {
+        align-self: center;
+        width: 300px;
+        height: 300px;
+    }
+
+    .depoimentos > div > div > span {
+        font-family: 'Tenor Sans';
+        font-size: 40px;
+        color: #5b7379;
+    }
+
+    .imgHome {
+        content: url(/img/mobile/1.png);
+    }
+
+    .imgSobre{
+        content: url(/img/mobile/2.png);
+    }
+
+    .imgOrcamento{
+        content: url(/img/mobile/3.png);
+    }
+
+    .imgPortifolio{
+        content: url(/img/mobile/4.png);
+    }
+
+    .imgCurso{
+        content: url(/img/mobile/5.png);
+    }
+
+    .imgContato{
+        content: url(/img/mobile/9.png);
+    }
+
+    .whatsapp {
+        position: fixed;
+        top: 74%;
+        right: 10px;
+        padding: 10px;
+        z-index: 2;
+        width: 8rem;
+        opacity: 40%;
+    }
+
+    .instagram{
+        position: fixed;
+        top: 85%;
+        right: 10px;
+        padding: 10px;
+        z-index: 2;
+        width: 8rem;
+        opacity: 40%;
+    }
+
+}
